@@ -5,35 +5,107 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.section-container{
+.section-container {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.top{
+/* ********** */
+.top {
     background-color: #00cad1;
 }
 
-.top-content{
+.top-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.top-menu-links ul{
+.top-menu-links ul {
     display: flex;
     list-style: none;
 }
 
-.top-menu-links a{
+.top-menu-links a {
     text-decoration: none;
     margin-left: 15px;
     padding: 10px;
     color: #fff;
 }
 
-.top-menu-links a:hover{
+.top-menu-links a:hover {
     color: #232323;
     transition: 0.4s;
 }
+
+/* ********** */
+.bg-image-section {
+    background-image: url("/assets/img/recepcao2.jpg");
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-image-section-text {
+    color: #fff;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bg-image-section-text h1,
+.bg-image-section-text p {
+    font-size: 2.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ********** */
+.about-clinic{
+    color: #6f6f6f;
+    padding: 40px 150px;
+}
+
+.about-clinic-text h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-clinic-text p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.about-clinic-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-clinic-list h3{
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about-clinic-list ul{
+    padding: 0 40px;
+}
+
+/* ********** */
