@@ -17,6 +17,7 @@
 }
 
 .top-content {
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +60,7 @@
 }
 
 .bg-image-section-text {
+    padding: 0 20px;
     color: #fff;
     width: 100%;
     min-height: 500px;
@@ -76,75 +78,75 @@
 }
 
 /* ********** */
-.box-text{
+.box-text {
     color: #6f6f6f;
-    padding: 40px 150px;
+    padding: 40px 130px;
 }
 
-.box-text h2{
+.box-text h2 {
     text-align: center;
     font-size: 2em;
 }
 
-.box-text h3{
+.box-text h3 {
     text-align: center;
     font-size: 1.4em;
 }
 
-.box-text p{
+.box-text p {
     text-align: center;
     font-size: 1.2em;
     margin: 20px 0;
 }
 
-.about-clinic-list{
+.about-clinic-list {
     color: #6f6f6f;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about-clinic-list h3{
+.about-clinic-list h3 {
     margin: 20px 0;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.about-clinic-list ul{
+.about-clinic-list ul {
     padding: 0 40px;
 }
 
-.about-clinic-list h4{
+.about-clinic-list h4 {
     font-weight: 500;
 }
 
 /* ********** */
-.specials-box{
+.specials-box {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.specials-box figure{
+.specials-box figure {
     width: calc(100% / 3);
     margin: 0 20px;
     box-shadow: 0 0 10px #000000c3;
 }
 
-.specials-box img{
+.specials-box img {
     width: 100%;
 }
 
-.specials-box figcaption{
+.specials-box figcaption {
     padding: 15px 0;
     text-align: center;
 }
 
-.opening-hours{
+.opening-hours {
     text-align: center;
 }
 
-.opening-hours a{
+.opening-hours a {
     background-color: #00cad1;
     padding: 15px 25px;
     text-decoration: none;
@@ -152,14 +154,15 @@
     font-weight: bold;
 }
 
-.opening-hours:hover, .opening-hours a:hover{ 
+.opening-hours:hover,
+.opening-hours a:hover {
     color: #6f6f6f;
     transition: .5s;
     transform: scale(1.01);
 }
 
 /* ********* */
-footer{
+footer {
     margin-top: 40px;
     background-color: #0c6e71;
     text-align: center;
@@ -167,4 +170,94 @@ footer{
     line-height: 30px;
     font-size: 1.2em;
     padding: 40px;
+}
+
+/*  */
+@media (max-width: 768px) {
+    .top-content {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .top-menu-links {
+        padding-top: 20px;
+        border-top: 1px solid #8d8b8b;
+    }
+
+    /*  */
+    .bg-image-section {
+        min-height: 300px;
+    }
+
+    .bg-image-section-text {
+        min-height: 300px;
+    }
+
+    .bg-image-section-text h1,
+    .bg-image-section-text p {
+        font-size: 1.8em;
+    }
+
+    /*  */
+    .box-text {
+        padding: 50px 50px 10px;
+    }
+
+    .about-clinic-list h3 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .about-clinic-list img {
+        display: none;
+    }
+
+    /*  */
+    .specials-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .specials-box figure {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .specials-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specials-box figure {
+        width: calc(70%);
+    }
+}
+
+@media (max-width: 425px) {
+    .bg-image-section {
+        min-height: 200px;
+    }
+
+    .bg-image-section-text {
+        min-height: 200px;
+    }
+
+    .bg-image-section-text h1,
+    .bg-image-section-text p {
+        font-size: 1.4em;
+    }
+
+    /*  */
+    .box-text {
+        padding: 50px 20px 10px;
+    }
+
+    .about-clinic-list img {
+        display: none;
+    }
+
 }
