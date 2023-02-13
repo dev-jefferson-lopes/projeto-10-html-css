@@ -1,5 +1,7 @@
 # projeto-10-html-css
 
+https://jovial-faloodeh-aef23a.netlify.app
+
 A proposta desse projeto é criar uma página web responsiva utilizando as tecnologias HTML e CSS. sera um site de uma clínica médica. Ele possui duas páginas. Home  e página de especialidades.
    O site possui 3 principais estilos para se ajustar as resoluções:
                 320px até 425px (mobile).
