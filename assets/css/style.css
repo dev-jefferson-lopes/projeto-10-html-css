@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section-container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.top{
+    background-color: #00cad1;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.top-menu-links a{
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px;
+    color: #fff;
+}
+
+.top-menu-links a:hover{
+    color: #232323;
+    transition: 0.4s;
+}
