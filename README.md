@@ -10,9 +10,9 @@ A proposta desse projeto é criar uma página web responsiva utilizando as tecno
 A navegação do site é feita através de links no topo das páginas e no link VER HORÁRIOS na página home.
 
 ## Layout web
-![Web 1]()
+![Web 1](https://github.com/dev-jefferson-lopes/projeto-10-html-css/blob/main/assets/img/home-layout-desktop.jpg)
 
-![Web 2]()
+![Web 2](https://github.com/dev-jefferson-lopes/projeto-10-html-css/blob/main/assets/img/especialidades-layout-desktop.jpg)
 
 # Tecnologias utilizadas
 ## Front end
